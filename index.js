@@ -103,7 +103,7 @@ function handleReplyBtnClick(replyId){
         })[0]
         targetTweetObj.replies.unshift({
             handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            profilePic: `https://raw.githubusercontent.com/MemoBaca/scrimba18-twimba/main/images/scrimbalogo.png`,
             tweetText: `${replyInput.value}`,
             isDeletable: true,
             uuid: uuidv4(),
