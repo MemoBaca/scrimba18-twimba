@@ -163,7 +163,7 @@ function getFeedHtml(){
         
         let repliesHtml = `
         <div class="reply-input-area">
-			<img src="images/scrimbalogo.png" class="profile-pic">
+			<img src="https://raw.githubusercontent.com/MemoBaca/scrimba18-twimba/main/images/scrimbalogo.png" class="profile-pic">
 			<textarea placeholder="Reply" data-replytxtarea="${tweet.uuid}"></textarea>
 		</div>
 		<button data-replybtn="${tweet.uuid}">Reply</button>
