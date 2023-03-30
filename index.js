@@ -74,7 +74,7 @@ function handleTweetBtnClick(){
         let tweetsJSON = JSON.parse(localStorage.getItem("tweetsData"))
         tweetsJSON.unshift({
             handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            profilePic: `https://raw.githubusercontent.com/MemoBaca/scrimba18-twimba/main/images/scrimbalogo.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
