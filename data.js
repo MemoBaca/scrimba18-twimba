@@ -47,7 +47,7 @@ export const tweetsData = [
             },
             {
                 handle: `@YummyCoder64`,
-                profilePic: `https://github.com/MemoBaca/scrimba18-twimba/blob/main/images/love.png`,
+                profilePic: `https://raw.githubusercontent.com/MemoBaca/scrimba18-twimba/main/images/love.png`,
                 tweetText: `You are wonderful just as you are! ❤️`,
             },
         ],
